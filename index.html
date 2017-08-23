@@ -15,7 +15,7 @@
     <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="homepage.js"></script>
     <script type="text/javascript" src="header.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
 
@@ -111,6 +111,8 @@
     </section> <!-- header -->
 <!--   header section end here   -->
 
+
+
 <!--   Work section start here   -->
 
     <section class="container container--work" >
@@ -118,232 +120,245 @@
             <h3>works</h3>
         </div>
 
+        <div class="tab">
+          <button id="defaultOpen" class="tablinks" onclick="openTab(event, 'tab1')">UX/UI</button>
+          <button class="tablinks" onclick="openTab(event, 'tab2')">Photograpgy</button>
+          <button class="tablinks" onclick="openTab(event, 'tab3')">Archives</button>
+        </div>
 
 
-        <!--   1-column start here   -->
+        <div  id="tab1" class="tabcontent">
+          <!--   1-column start here   -->
+          <div layout="rows top-left">
 
-        <div layout="rows top-left">
+              <li style="display: inline-block;">
+                <a href="">
+              			<div class="card card-col-1">
+              				<div class="card-body">
+                        <div class="card-hero">
+                            <img src="img/square-1.png" alt="Card" style="width:100%;height:100%;">
+                        </div>
 
-            <li style="display: inline-block;">
-              <a href="">
-            			<div class="card card-col-1">
-            				<div class="card-body">
-                      <div class="card-hero">
-                          <img src="img/square-1.png" alt="Card" style="width:100%;height:100%;">
-                      </div>
-
-                      <div class="card-title">MatchPret <span class="card-description">Language barrier in healthcare</span>
-                      </div>
-            				</div>
-
-              			<div class="card-footer">
-              				<div class="card-footer-wrapper" layout="row bottom-left">
-                				<div class="card-tag is-notShownIfHover">SVA / Healthcare / 2016</div>
-                        <div class="card-tag is-shownIfHover" self="left">View more</div>
-
+                        <div class="card-title">MatchPret <span class="card-description">Language barrier in healthcare</span>
+                        </div>
               				</div>
-              		  </div>
-                </div>
-            	</a>
-            </li>
-        </div>
 
-
-
-        <!--   2-column start here   -->
-
-        <div layout="rows top-left">
-
-            <li style="display: inline-block;">
-              <a href="">
-                  <div class="card card-col-2">
-                    <div class="card-body">
-                      <div class="card-hero">
-                        <img src="img/square.png" alt="Card" style="width:100%;height:100%;">
-
-                      </div>
-
-                      <div class="card-title">Meetingwave <span class="card-description">Lightweight meeting arrangment</span>
-                      </div>
-                    </div>
-
-                    <div class="card-footer">
-                      <div class="card-footer-wrapper" layout="row bottom-left">
-                        <div class="card-tag is-notShownIfHover">SAP / Enterprise Software / 2017</div>
+                			<div class="card-footer">
+                				<div class="card-footer-wrapper" layout="row bottom-left">
+                  				<div class="card-tag is-notShownIfHover">SVA / Healthcare / 2016</div>
                           <div class="card-tag is-shownIfHover" self="left">View more</div>
-                      </div>
-                    </div>
+
+                				</div>
+                		  </div>
                   </div>
-              </a>
-            </li>
-
-            <li style="display: inline-block;">
-              <a href="">
-                  <div class="card card-col-2">
-                    <div class="card-body">
-                      <div class="card-hero">
-                        <img src="img/square.png" alt="Card" style="width:100%;height:100%;">
-                      </div>
-                      <div class="card-title">Mailwave
- <span class="card-description">Measuring email's success — from start to finish</span>
-                      </div>
-                    </div>
-
-                    <div class="card-footer">
-                      <div class="card-footer-wrapper" layout="row bottom-left">
-                        <div class="card-tag is-notShownIfHover">SAP / Enterprise Software / 2017</div>
-                          <div class="card-tag is-shownIfHover" self="left">View more</div>
-                      </div>
-                    </div>
-                </div>
-              </a>
-            </li>
-        </div>
+              	</a>
+              </li>
+          </div>
 
 
 
-        <!--   3-column start here   -->
-        <div layout="rows top-left">
+          <!--   2-column start here   -->
 
-            <li style="display: inline-block;">
-              <a href="">
-                  <div class="card card-col-3 ">
-                    <div class="card-body">
-                      <div class="card-hero">
-                        <img src="img/square.png" alt="Card" style="width:100%;height:300px;">
+          <div layout="rows top-left">
+
+              <li style="display: inline-block;">
+                <a href="">
+                    <div class="card card-col-2">
+                      <div class="card-body">
+                        <div class="card-hero">
+                          <img src="img/square.png" alt="Card" style="width:100%;height:100%;">
+
+                        </div>
+
+                        <div class="card-title">Meetingwave <span class="card-description">Lightweight meeting arrangment</span>
+                        </div>
                       </div>
 
-                      <div class="card-title">Yadl <span class="card-description">Improving the efficacy of reporting ADLs</span>
+                      <div class="card-footer">
+                        <div class="card-footer-wrapper" layout="row bottom-left">
+                          <div class="card-tag is-notShownIfHover">SAP / Enterprise Software / 2017</div>
+                            <div class="card-tag is-shownIfHover" self="left">View more</div>
+                        </div>
                       </div>
                     </div>
+                </a>
+              </li>
 
-                    <div class="card-footer">
-                      <div class="card-footer-wrapper" layout="row bottom-ri">
-                        <div class="card-tag is-notShownIfHover">Cornell Tech / Healthcare / 2015</div>
-                          <div class="card-tag is-shownIfHover" self="left">View more</div>
+              <li style="display: inline-block;">
+                <a href="">
+                    <div class="card card-col-2">
+                      <div class="card-body">
+                        <div class="card-hero">
+                          <img src="img/square.png" alt="Card" style="width:100%;height:100%;">
+                        </div>
+                        <div class="card-title">Mailwave
+   <span class="card-description">Measuring email's success — from start to finish</span>
+                        </div>
                       </div>
-                    </div>
+
+                      <div class="card-footer">
+                        <div class="card-footer-wrapper" layout="row bottom-left">
+                          <div class="card-tag is-notShownIfHover">SAP / Enterprise Software / 2017</div>
+                            <div class="card-tag is-shownIfHover" self="left">View more</div>
+                        </div>
+                      </div>
                   </div>
-              </a>
-            </li>
+                </a>
+              </li>
+          </div>
 
-            <li style="display: inline-block;">
-              <a href="">
-                  <div class="card card-col-3">
-                    <div class="card-body">
-                      <div class="card-hero">
-                        <img src="img/square.png" alt="Card" style="width:100%;height:300px;">
-                        </svg>
+
+
+          <!--   3-column start here   -->
+          <div layout="rows top-left">
+
+              <li style="display: inline-block;">
+                <a href="">
+                    <div class="card card-col-3 ">
+                      <div class="card-body">
+                        <div class="card-hero">
+                          <img src="img/square.png" alt="Card" style="width:100%;height:300px;">
+                        </div>
+
+                        <div class="card-title">Yadl <span class="card-description">Improving the efficacy of reporting ADLs</span>
+                        </div>
                       </div>
-                      <div class="card-title">PetHood
- <span class="card-description">Animal adoption matching</span>
+
+                      <div class="card-footer">
+                        <div class="card-footer-wrapper" layout="row bottom-ri">
+                          <div class="card-tag is-notShownIfHover">Cornell Tech / Healthcare / 2015</div>
+                            <div class="card-tag is-shownIfHover" self="left">View more</div>
+                        </div>
                       </div>
                     </div>
+                </a>
+              </li>
 
-                    <div class="card-footer">
-                      <div class="card-footer-wrapper" layout="row bottom-left">
-                        <div class="card-tag is-notShownIfHover">Google / Design exercise / 2016</div>
+              <li style="display: inline-block;">
+                <a href="">
+                    <div class="card card-col-3">
+                      <div class="card-body">
+                        <div class="card-hero">
+                          <img src="img/square.png" alt="Card" style="width:100%;height:300px;">
+                          </svg>
+                        </div>
+                        <div class="card-title">PetHood
+   <span class="card-description">Animal adoption matching</span>
+                        </div>
+                      </div>
+
+                      <div class="card-footer">
+                        <div class="card-footer-wrapper" layout="row bottom-left">
+                          <div class="card-tag is-notShownIfHover">Google / Design exercise / 2016</div>
+                          <div class="card-tag is-shownIfHover" self="left">View more</div>
+                        </div>
+                      </div>
+                  </div>
+                </a>
+              </li>
+
+              <li style="display: inline-block;">
+                <a href="">
+                    <div class="card card-col-3">
+                      <div class="card-body">
+                        <div class="card-hero">
+                          <img src="img/square.png" alt="Card" style="width:100%;height:300px;">
+                        </div>
+                        <div class="card-title">Natured
+   <span class="card-description">Measuring email's success — from start to finish</span>
+                        </div>
+                      </div>
+
+                      <div class="card-footer">
+                        <div class="card-footer-wrapper" layout="rows bottom-left">
+                          <div class="card-tag is-notShownIfHover">SVA / Sustainability / 2015</div>
+                        </div>
                         <div class="card-tag is-shownIfHover" self="left">View more</div>
                       </div>
-                    </div>
-                </div>
-              </a>
-            </li>
-
-            <li style="display: inline-block;">
-              <a href="">
-                  <div class="card card-col-3">
-                    <div class="card-body">
-                      <div class="card-hero">
-                        <img src="img/square.png" alt="Card" style="width:100%;height:300px;">
-                      </div>
-                      <div class="card-title">Natured
- <span class="card-description">Measuring email's success — from start to finish</span>
-                      </div>
-                    </div>
-
-                    <div class="card-footer">
-                      <div class="card-footer-wrapper" layout="rows bottom-left">
-                        <div class="card-tag is-notShownIfHover">SVA / Sustainability / 2015</div>
-                      </div>
-                      <div class="card-tag is-shownIfHover" self="left">View more</div>
-                    </div>
-                </div>
-              </a>
-            </li>
-
-            <li style="display: inline-block;">
-              <a href="">
-                  <div class="card card-col-3 ">
-                    <div class="card-body">
-                      <div class="card-hero">
-                        <img src="img/square.png" alt="Card" style="width:100%;height:300px;">
-                      </div>
-
-                      <div class="card-title">Medbuzzer <span class="card-description">Improving care team - patient communication efficiency</span>
-                      </div>
-                    </div>
-
-                    <div class="card-footer">
-                      <div class="card-footer-wrapper" layout="row bottom-left">
-                        <div class="card-tag is-notShownIfHover">Cornell Tech / Healthcare / 2015</div>
-                        <div class="card-tag is-shownIfHover" self="left">View more</div>
-                      </div>
-                    </div>
                   </div>
-              </a>
-            </li>
+                </a>
+              </li>
 
-            <li style="display: inline-block;">
-              <a href="">
-                  <div class="card card-col-3">
-                    <div class="card-body">
-                      <div class="card-hero">
-                        <img src="img/square.png" alt="Card" style="width:100%;height:300px;">
+              <li style="display: inline-block;">
+                <a href="">
+                    <div class="card card-col-3 ">
+                      <div class="card-body">
+                        <div class="card-hero">
+                          <img src="img/square.png" alt="Card" style="width:100%;height:300px;">
+                        </div>
+
+                        <div class="card-title">Medbuzzer <span class="card-description">Improving care team - patient communication efficiency</span>
+                        </div>
                       </div>
-                      <div class="card-title">Clo
- <span class="card-description">From buying to borrowing -
-The over consumption of clothing</span>
+
+                      <div class="card-footer">
+                        <div class="card-footer-wrapper" layout="row bottom-left">
+                          <div class="card-tag is-notShownIfHover">Cornell Tech / Healthcare / 2015</div>
+                          <div class="card-tag is-shownIfHover" self="left">View more</div>
+                        </div>
                       </div>
                     </div>
+                </a>
+              </li>
 
-                    <div class="card-footer">
-                      <div class="card-footer-wrapper" layout="row bottom-left">
-                        <div class="card-tag is-notShownIfHover">SVA / Sustainability / 2016</div>
+              <li style="display: inline-block;">
+                <a href="">
+                    <div class="card card-col-3">
+                      <div class="card-body">
+                        <div class="card-hero">
+                          <img src="img/square.png" alt="Card" style="width:100%;height:300px;">
+                        </div>
+                        <div class="card-title">Clo
+   <span class="card-description">From buying to borrowing -
+  The over consumption of clothing</span>
+                        </div>
                       </div>
-                      <div class="card-tag is-shownIfHover" self="left">View more</div>
-                    </div>
-                </div>
-              </a>
-            </li>
 
-            <li style="display: inline-block;">
-              <a href="">
-                  <div class="card card-col-3">
-                    <div class="card-body">
-                      <div class="card-hero">
-                        <img src="../img/square.png" alt="Card" style="width:100%;height:300px;">
-                      </div>
-                      <div class="card-title">Annual Report
- <span class="card-description">Compare the financial performance of four tech companies</span>
-                      </div>
-                    </div>
-
-                    <div class="card-footer">
-                      <div class="card-footer-wrapper" layout="row bottom-left">
-                        <div class="card-tag is-notShownIfHover">SVA / Data Visualization / 2015</div>
+                      <div class="card-footer">
+                        <div class="card-footer-wrapper" layout="row bottom-left">
+                          <div class="card-tag is-notShownIfHover">SVA / Sustainability / 2016</div>
+                        </div>
                         <div class="card-tag is-shownIfHover" self="left">View more</div>
                       </div>
-                    </div>
-                </div>
-              </a>
-            </li>
+                  </div>
+                </a>
+              </li>
 
-        </div>
+              <li style="display: inline-block;">
+                <a href="">
+                    <div class="card card-col-3">
+                      <div class="card-body">
+                        <div class="card-hero">
+                          <img src="img/square.png" alt="Card" style="width:100%;height:300px;">
+                        </div>
+                        <div class="card-title">Annual Report
+   <span class="card-description">Compare the financial performance of four tech companies</span>
+                        </div>
+                      </div>
 
-        <div class="more" layout="row center-center">
-          <a class="underline-2"><span class="add-arrow"></span>More</a>
-        </div>
+                      <div class="card-footer">
+                        <div class="card-footer-wrapper" layout="row bottom-left">
+                          <div class="card-tag is-notShownIfHover">SVA / Data Visualization / 2015</div>
+                          <div class="card-tag is-shownIfHover" self="left">View more</div>
+                        </div>
+                      </div>
+                  </div>
+                </a>
+              </li>
+
+          </div>
+
+          <div class="more" layout="row center-center">
+            <a class="underline-2"><span class="add-arrow"></span>More</a>
+          </div>
+        </div> <!-- tab1 -->
+
+        <div  id="tab2" class="tabcontent">
+        </div> <!-- tab2 -->
+
+        <div  id="tab3" class="tabcontent">
+        </div> <!-- tab3 -->
+
 
     </section> <!-- work -->
 <!--   Work section end here   -->
@@ -419,9 +434,10 @@ The over consumption of clothing</span>
 <!-- menu section end here -->
 
 
-<!-- menu show/hidden -->
+
 <script type="text/javascript">
 
+// menu show/hidden
 var $document = $(document),
 	$element = $('.nav'),
 	className = 'nav-bg';
@@ -433,6 +449,11 @@ $document.scroll(function() {
 		$element.removeClass(className);
 	}
 });
+
+// tab1 defaultOpen
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
 
 </script>
 

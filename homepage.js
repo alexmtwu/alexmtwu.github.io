@@ -32,61 +32,24 @@ $('#hamburger').on('click',function(){
 });
 
 
+// tabs
+function openTab(evt, tabClicked) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
 
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
 
-// $(document).ready(function(){
-// $('#hamburger').click(hamburger)
-// });
-//
-// function hamburger() {
-// 	if($(this).attr('data-click-state') == 1) {
-// 	$(this).attr('data-click-state', 1)
-// 	$("#dropdown").slideToggle(250);
-// 	$('html, body').css('overflow', 'auto', 'height', 'auto')
-// 	$("#overlay").hide();
-// 	} else {
-// 	$(this).attr('data-click-state', 0)
-// 	$("#dropdown").slideToggle(250);
-// 	$('html, body').css('overflow', 'hidden', 'height', '100%')
-// 	$("#overlay").show();
-// 	}
-// }
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
 
-//
-//
-// $(document).ready(function(){
-// $('#overlay').on('click',function(){
-//
-// 	$("#dropdown").slideToggle(250);
-// 	$('html, body').css('overflow', 'auto', 'height', 'auto')
-// 	$("#overlay").hide();
-// 	$('.hamburger').toggleClass('open');
-// });
-// });
-
-
-
-// $(document).ready(function(){
-// $('.logo').on('click',function(){
-// 	$('#hamburger').toggle(fn1, fn2);
-// });
-// });
-//
-// function fn2() {
-// 	$("#dropdown").slideToggle(250);
-// 	$('html, body').css('overflow', 'auto', 'height', 'auto')
-// 	$("#overlay").hide();
-// 	}
-//
-// function fn1() {
-// 	$("#dropdown").slideToggle(250);
-// 	$('html, body').css('overflow', 'hidden', 'height', '100%')
-// 	$("#overlay").show();
-// 	}
-
-
-
-// $('#toggled').toggle(fn1, fn2);
-// $('#clear').click(function() {
-//         $('#toggled').unbind('click').toggle(fn1, fn2);
-// });
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(tabClicked).style.display = "block";
+    evt.currentTarget.className += " active";
+}

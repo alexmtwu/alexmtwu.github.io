@@ -126,6 +126,62 @@ a {
 
 
 
+/* tabs */
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+		margin-bottom: 28px;
+
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0 20px 10px 20px;
+    transition: 0.3s;
+		color: #AEAEAE;
+		font-size: 17px;
+		letter-spacing: 1.93px;
+		font-weight: 600;
+		background-color:inherit;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    color: #2D2D2D;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    color: #2D2D2D;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+
+}
+
+.tabcontent {
+    -webkit-animation: fadeEffect 0.25s;
+    animation: fadeEffect 0.25s;
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+
 
 
 
@@ -135,7 +191,6 @@ a {
 	margin-left: 20px;
 	margin-right: 20px;
 }
-
 
 
 
