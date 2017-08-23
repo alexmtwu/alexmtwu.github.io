@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="463px" height="211px" viewBox="0 0 463 211" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="mockup" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Portfolio-Copy-15" transform="translate(-488.000000, -4982.000000)">
+            <g id="Group-6" transform="translate(0.000000, 4419.000000)">
+                <g id="Group-2" transform="translate(490.000000, 562.000000)">
+                    <path d="M228.316823,95.4771694 C229.299914,96.1426944 229.302549,97.2199394 228.316823,97.8872484 L117.086709,173.18695 C116.103619,173.852475 115.306667,173.419754 115.306667,172.239362 L115.306667,21.1250562 C115.306667,19.9361924 116.100983,19.5101583 117.086709,20.1774673 L228.316823,95.4771694 Z" id="Rectangle-Copy-2" fill="#E2E2E2"></path>
+                    <text id="Discover" font-family="SFUIText-Medium, SF UI Text" font-size="14" font-weight="400" fill="#212121">
+                        <tspan x="0" y="14.0047393">Discover</tspan>
+                    </text>
+                    <text id="Build-the-right-thin" font-family="SFUIText-Medium, SF UI Text" font-size="14" font-weight="400" fill="#212121">
+                        <tspan x="46.8119076" y="208.333949">Build the right thing</tspan>
+                    </text>
+                    <text id="Build-the-thing-righ" font-family="SFUIText-Medium, SF UI Text" font-size="14" font-weight="400" fill="#212121">
+                        <tspan x="278.038574" y="208.333949">Build the thing right</tspan>
+                    </text>
+                    <text id="Define" font-family="SFUIText-Medium, SF UI Text" font-size="14" font-weight="400" fill="#212121">
+                        <tspan x="126.8" y="14.0047393">Define</tspan>
+                    </text>
+                    <path d="M458.930157,95.4771694 C459.913247,96.1426944 459.915883,97.2199394 458.930157,97.8872484 L347.700043,173.18695 C346.716952,173.852475 345.92,173.419754 345.92,172.239362 L345.92,21.1250562 C345.92,19.9361924 346.714317,19.5101583 347.700043,20.1774673 L458.930157,95.4771694 Z" id="Rectangle-Copy-3" fill="#E2E2E2"></path>
+                    <path d="M228.263166,93.670798 L117.033052,18.5508254 C115.709954,17.6572628 113.675672,17.6579657 112.353615,18.5508254 L1.12350085,93.670798 C-0.448741368,94.7326219 -0.447272463,96.671716 1.12350085,97.7325478 L112.353615,172.85252 C113.676713,173.746083 115.710995,173.74538 117.033052,172.85252 L228.263166,97.7325478 C229.835408,96.6707239 229.833939,94.7316299 228.263166,93.670798 Z" id="Rectangle" stroke="#212121" stroke-width="2"></path>
+                    <path d="M458.263166,93.670798 L347.033052,18.5508254 C345.709954,17.6572628 343.675672,17.6579657 342.353615,18.5508254 L231.123501,93.670798 C229.551259,94.7326219 229.552728,96.671716 231.123501,97.7325478 L342.353615,172.85252 C343.676713,173.746083 345.710995,173.74538 347.033052,172.85252 L458.263166,97.7325478 C459.835408,96.6707239 459.833939,94.7316299 458.263166,93.670798 L458.263166,93.670798 Z" id="Rectangle-Copy" stroke="#212121" stroke-width="2"></path>
+                    <g id="Group" transform="translate(114.080000, 0.967441)">
+                        <path d="M0.912957084,1.00473934 L0.912957084,187.897895" id="Line" stroke="#A8A8A8" stroke-width="1.07692308" stroke-linecap="round" stroke-dasharray="1.076923117041588,8.615384936332703"></path>
+                        <path d="M115.94555,1.00473934 L115.94555,187.897895" id="Line-Copy-2" stroke="#A8A8A8" stroke-width="1.07692308" stroke-linecap="round" stroke-dasharray="1.076923117041588,8.615384936332703"></path>
+                        <text id="Iterate" font-family="SFUIText-Medium, SF UI Text" font-size="14" font-weight="400" fill="#212121">
+                            <tspan x="127.413333" y="13.0372983">Iterate</tspan>
+                        </text>
+                        <path d="M231.891099,1.00473934 L231.891099,187.897895" id="Line-Copy" stroke="#A8A8A8" stroke-width="1.07692308" stroke-linecap="round" stroke-dasharray="1.076923117041588,8.615384936332703"></path>
+                    </g>
+                    <text id="Implement" font-family="SFUIText-Medium, SF UI Text" font-size="14" font-weight="400" fill="#212121">
+                        <tspan x="357.413333" y="14.0047393">Implement</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

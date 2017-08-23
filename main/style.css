@@ -1,0 +1,312 @@
+/* Global */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	-webkit-text-size-adjust:none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-transition: opacity 0.2s ease;
+	-moz-transition: opacity 0.2s ease;
+	-ms-transition: opacity 0.2s ease;
+	-o-transition: opacity 0.2s ease;
+	transition: opacity 0.2s ease;
+}
+
+*::selection {
+	background: rgba(0, 0, 0, .1);
+}
+
+
+body {
+	font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+
+/*h1 {
+	font-size: 44px;
+	font-weight: 400;
+	color: #2D2D2D;
+}*/
+
+/*h2 {
+	font-size: 28px;
+	font-weight: 500;
+	color: #2D2D2D;
+}*/
+
+h3 {
+  font-size: 22px;
+  font-weight: 800;
+  color: #2D2D2D;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  margin-bottom: 48px;
+}
+
+p {
+	font-size: 14px;
+	color: #2D2D2D;
+}
+
+/*p a {
+	color:#2D2D2D;
+}*/
+
+a {
+	color:inherit;
+	text-decoration: none;
+	cursor: pointer;
+	transition: all .25s ease-in-out;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Homepage */
+
+.container {
+	padding: 160px 0;
+}
+
+.center {
+    margin: auto;
+    position: relative;
+    top: 50%;
+    /*-webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);*/
+}
+
+
+
+/* header */
+
+.home-container{
+	max-width:1125px;
+	margin: 0 auto;
+
+}
+
+.container--header {
+  height: 55vh;
+  min-height: 300px;
+	padding-bottom: 32px;
+	margin: 0 20px;
+}
+
+
+.home-title {
+  font-size: 49px;
+  color: #979797;
+  letter-spacing: 0;
+  line-height: 58px;
+}
+
+.home-title span {
+  color:#2d2d2d;
+  font-weight: 800;
+  /*text-decoration: underline;*/
+}
+
+.home-title:hover {
+	cursor: pointer;
+
+}
+
+
+
+
+
+
+/* work */
+
+.container--work h3 {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+
+
+
+
+/* card */
+
+.card {
+	padding: 20px 20px;
+	margin-bottom: 28px;
+}
+
+.card-col-2{
+  width: 562.5px;
+}
+
+.card-col-3{
+  width: 375px;
+}
+
+.card-hero {
+  margin-bottom: 32px;
+}
+
+.card-title {
+  font-size: 30px;
+  font-weight: 800;
+  color: #2D2D2D;
+  line-height: 34px;
+  margin-right: 12px;
+  margin-bottom: 32px;
+  float: left;
+}
+
+.card-description {
+  font-size: 30px;
+  font-weight: 300;
+  color: #979797;
+  line-height: 34px;
+  margin-bottom: 32px;
+}
+
+.card-col-3 .card-title, .card-col-3 .card-description{
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.card-tag {
+  font-size: 13px;
+  font-weight:500;
+  color: #797979;
+  margin-bottom: 32px;
+}
+
+
+
+
+
+
+/* more */
+
+.more a {
+  font-size: 19px;
+  font-weight: 600;
+  color: #2D2D2D;
+	transition: all .25s ease-in-out;
+}
+
+
+
+
+
+
+
+
+/* about */
+
+.container--about {
+	margin: 0 20px;
+	border-top: 1px solid #CCC9C9 ;
+}
+
+.content-title {
+	font-weight: 800;
+	font-size: 30px;
+	color: #2D2D2D;
+	/*word-spacing: 1px;*/
+	letter-spacing: -0.4px;
+	line-height: 46px;
+}
+
+.content-description {
+	font-weight: 300;
+	font-size: 30px;
+	color: #979797;
+	/*word-spacing: 1px;*/
+	letter-spacing: -0.4px;
+	line-height: 46px;
+}
+
+
+
+
+
+
+/* process */
+
+.container--process {
+	position: relative;
+  background: #f2f2f2;
+	margin: 0 20px;
+}
+
+.container--process:before, .container--process:after {
+  content: "";
+  position: absolute;
+  background: #f2f2f2;  /* Match the background */
+  top: 0;
+  bottom: 0;
+  width: 9999px;   /* some huge width */
+}
+
+.container--process:before {
+  right: 100%;
+}
+
+.container--process:after {
+  left: 100%;
+}
+
+.doubledimond {
+    text-align: center;
+    margin: 96px 0 0 0;
+}
+
+
+
+
+
+
+/* footer */
+
+footer {
+	font-size: 17px;
+	font-weight: 500;
+	color: #2D2D2D;
+	text-align: center;
+	margin: 0 20px;
+}
+
+.location, .email, .social-icon {
+	width: 220px;
+}
+
+.location {
+	text-align: center;
+}
+
+.social-icon {
+	text-align: center;
+}
+
+.linkedin {
+	margin: 0 0 0 28px;
+  padding-bottom: 3px;
+}
+
+.email {
+	text-align: center;
+}
+
+.all-rights-reserved {
+	margin-top: 96px;
+}

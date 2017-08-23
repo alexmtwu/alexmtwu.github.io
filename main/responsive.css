@@ -1,0 +1,76 @@
+/* responsive */
+
+
+@media only screen and (max-width: 1125px) {
+	.home-container {
+		max-width: 750px;
+	}
+	.card-col-2 {
+		width: 375px;
+	}
+
+	.card-col-2 .card-hero {
+		height: 300px;
+	}
+
+	.card-col-2 .card-title, .card-col-2 .card-description {
+	  font-size: 22px;
+	  line-height: 28px;
+	}
+
+}
+
+@media only screen and (max-width: 890px) {
+
+}
+
+@media only screen and (max-width: 750px) {
+	.home-container {
+		max-width: 375px;
+	}
+
+	.card-col-1 .card-hero {
+		height: 300px;
+	}
+
+	.card-col-1 .card-title, .card-col-1 .card-description {
+	  font-size: 22px;
+	  line-height: 28px;
+	}
+
+	.location, .email, .social-icon {
+		margin: 24px 0;
+	}
+
+	.content-title, .content-description {
+		font-size: 20px;
+		letter-spacing: -0.4px;
+		line-height: 30px;
+	}
+
+	h3 {
+		font-size: 16px;
+	}
+
+	.home-title {
+		font-size: 37px;
+	  line-height: 42px;
+	}
+
+}
+
+
+@media only screen and (max-width: 370px) {
+	.home-container {
+		max-width: 320px;
+	}
+
+	.card-col-1, .card-col-2, .card-col-3 {
+		width: 320px;
+	}
+}
+
+
+@media screen and (max-height: 700px) and (min-width: 1225px) {
+
+}
