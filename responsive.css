@@ -56,8 +56,22 @@
 		font-size: 37px;
 	  line-height: 42px;
 	}
+	/*dropdown*/
+	#dropdown-logo {
+		display: none;
+	}
+
+	.menu-description {
+		display: none;
+	}
+
+	#dropdown-bottom-row {
+		display: none;
+	}
 
 }
+
+
 
 
 @media only screen and (max-width: 370px) {
