@@ -195,7 +195,6 @@ div.tab button.active {
 	}
 
 	.tab-underline .line {
-		/*width: 50px;*/
 		display: inline-block;
 		height: 3px;
 		background-color: #2D2D2D;
