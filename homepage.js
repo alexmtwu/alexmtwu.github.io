@@ -13,7 +13,7 @@ $('#hamburger').on('click',function(){
 
 	if($(this).attr('data-click-state') == 1) {
 		$(this).attr('data-click-state', 0)
-		$("#dropdown").slideToggle(180);
+		$("#dropdown").slideToggle(150);
 		$('html, body').css('overflow-y', 'auto', 'height', 'auto')
 		$("#overlay").hide();
 		$("#logo").css('opacity', '1');
@@ -21,7 +21,7 @@ $('#hamburger').on('click',function(){
 
 	} else {
 		$(this).attr('data-click-state', 1)
-		$("#dropdown").slideToggle(180);
+		$("#dropdown").slideToggle(150);
 		$('html, body').css('overflow-y', 'hidden', 'height', '100%')
 		$("#overlay").show();
 		$("#logo").css('opacity', '0');
@@ -48,6 +48,12 @@ function openTab(evt, tabClicked) {
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
+
+    // underline = document.getElementsById(line);
+    // for (i = 0; i < tablinks.length; i++) {
+    //     underline.style.width = tablinks[i].style.width;
+    // }
+
 
     // Show the current tab, and add an "active" class to the button that opened the tab
     document.getElementById(tabClicked).style.display = "block";

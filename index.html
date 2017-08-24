@@ -120,11 +120,17 @@
             <h3>works</h3>
         </div>
 
+
         <div class="tab">
           <button id="defaultOpen" class="tablinks" onclick="openTab(event, 'tab1')">UX/UI</button>
           <button class="tablinks" onclick="openTab(event, 'tab2')">Photograpgy</button>
           <button class="tablinks" onclick="openTab(event, 'tab3')">Archives</button>
-        </div>
+        </div> <!-- tab -->
+
+        <div class="tab-underline">
+          <span id="line" class="line"></span>
+        </div> <!-- tab-underline -->
+
 
 
         <div  id="tab1" class="tabcontent">
@@ -408,10 +414,9 @@
         <div class="social-icon" style="width:80px, height:80px">
           <a><img class="instagram" src="img/Instagram.svg" alt="Instagram"></a>
 
-          <a><img class="linkedin" src="img/LinkedIn.svg" alt="LinkedIn"></a>
+          <a><img class="linkedin" src="img/linkedIn.svg" alt="LinkedIn"></a>
         </div>
       </div>
-
       <div class="all-rights-reserved" layout="row center-center">
         © 2017 Alex Wu
       </div>
@@ -450,10 +455,36 @@ $document.scroll(function() {
 	}
 });
 
+
+
 // tab1 defaultOpen
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
+var x = document.getElementById("defaultOpen").offsetWidth - 40;
+$(".line").css("width", x);
 
+
+// tab unerline
+$(".tab button").click(function(e) {
+
+  var x = $(this).css("width");
+  var y = parseInt(x) - 40; //returns without px
+  $(".line").addClass("width");
+  $(".line").css("width", y);
+
+  if ($(this).hasClass('slider')) {
+    reurn;
+  }
+
+
+  /* Add the slider movement */
+  // Work out how far the slider needs to go
+  var offset = $(this).offset().left - $(this).parent().offset().left;
+
+  $(".line").css({
+    left: offset + "px"
+  });
+});
 
 </script>
 

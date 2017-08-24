@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Alex Wu's Design Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Alex Wu's Design Portfolio">
+  <meta name="author" content="Alex Wu">
+
+  <link href="flex-layout-attribute.min.css" rel="stylesheet">
+  <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <style>
+    body {
+      padding: 50px;
+    }
+
+    .js-active-tab {
+      border: none;
+    }
+
+    .js-tab-underline {
+      width: 1px;
+      height: 2px;
+      left: 15px;
+      bottom: -1px;
+      position: absolute;
+      background: red;
+      transition: .5s ease;
+    }
+
+    .nav {
+      list-style: none;
+    }
+
+    .nav-item {
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 0 20px 10px 20px;
+      transition: 0.3s;
+      color: #AEAEAE;
+      font-size: 17px;
+      letter-spacing: 1.93px;
+      font-weight: 600;
+      background-color:inherit;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+  </style>
+
+</head>
+
+<body>
+  <div id="a" class="table-bordered border-right-0 border-left-0 border-top-0">
+  	<div class="container">
+
+      <div class="js-tab-underline">wdwdw</div>
+
+  		<ul class="nav">
+   		 	<li class="nav-item">
+  				<a class="nav-link active js-tab-link text-black py-3" id="js-tabs-news" href="">Tiedotteet</a>
+   			 </li>
+   			 <li class="nav-item">
+    				<a class="nav-link js-tab-link text-black py-3 js-tabs-img-selector js-disable-while-loading" id="js-tabs-img" href="#">Kuvat</a>
+    			 </li>
+   			 <li class="nav-item">
+    			    <a class="nav-link js-tab-link text-black py-3 js-tabs-files-selector js-disable-while-loading js-active-tab" id="js-tabs-files" href="#">Tiedostot</a>
+   			 </li>
+
+   			 <li class="nav-item">
+      			<a class="nav-link js-tab-link text-black py-3 js-disable-while-loading" id="js-tabs-info" href="#">Yritysinfo</a>
+    			 </li>
+  		</ul>
+  	</div>
+  </div>
+
+
+  <script>
+  $('.js-tab-underline').css('width', $('.js-tab-link.active').outerWidth());
+
+$(".js-tab-link").click(function(e){
+  e.preventDefault();
+  $(".js-tab-link").removeClass("js-active-tab");
+  $(this).addClass("js-active-tab");
+
+  var current = $(this),
+      position = current.position();
+  $('.js-tab-underline').css('left', position.left);
+  $('.js-tab-underline').css('width', $(this).outerWidth());
+});
+
+  </script>
+</body>
+
+</html>
