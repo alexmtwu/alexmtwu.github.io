@@ -2,14 +2,16 @@
 /* card */
 
 .card {
-  transition: all .3s ease-in-out;
-  -webkit-transition: all .3s ease-in-out;
+  transition: all .25s ease-in-out;
+  -webkit-transition: all .25s ease-in-out;
+
 }
 
 .card:hover {
   box-shadow: 0 25px 40px rgba(0,0,0,.16);
   -webkit-box-shadow: 0 25px 40px rgba(0,0,0,.16);
-  display: inline-block !important;
+  /*display: inline-block !important;*/
+
   transform: translate(0,-20px);
   -ms-transform: translate(0,-20px);
   -webkit-transform: translate(0,-20px);
@@ -89,10 +91,9 @@
   width: 100%;
 }
 
-.underline-2:hover .add-arrow:after {
+/*.underline-2:hover .add-arrow:after {
   content: '> ';
-
-}
+}*/
 
 
 

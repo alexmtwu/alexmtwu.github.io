@@ -31,8 +31,6 @@ html, body {
 }
 
 
-
-
 /*h1 {
 	font-size: 44px;
 	font-weight: 400;
@@ -103,7 +101,7 @@ a {
 }
 
 .container--header {
-  height: 55vh;
+  height: 50vh;
   min-height: 300px;
 	padding-bottom: 32px;
 	margin: 0 20px;
@@ -143,11 +141,10 @@ div.tab button {
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 0 20px 10px 20px;
-    transition: 0.3s;
+    padding: 0 20px 12px 20px;
+    transition: 0.25s;
 		color: #AEAEAE;
-		font-size: 17px;
-		letter-spacing: 1.93px;
+		font-size: 16px;
 		font-weight: 600;
 		background-color:inherit;
 }
@@ -186,11 +183,13 @@ div.tab button.active {
 /* tab-underline */
 .tab-underline {
 		height: 3px;
-		width: 100%;
+		/*width: 100%;*/
 		margin: 0 20px;
 		border-radius: 3px;
 		position: relative;
 		margin-bottom: 28px;
+		/*background-color:#f2f2f2;*/
+
 
 	}
 
@@ -208,32 +207,12 @@ div.tab button.active {
 
 
 
-	/*div.tab button.active:first-child ~ .tab-underline .line {
-		left: 0;
-		background-color: "blue";
-
-	}
-
-	div.tab button.active:nth-child(2) ~ .tab-underline .line {
-		left: 33.33%;
-	}
-
-	div.tab button.active:last-of-type ~ .tab-underline .line {
-		left: 66.66%;
-	}*/
-
-
-
-
-
-
 /* work */
 
 .container--work h3 {
 	margin-left: 20px;
 	margin-right: 20px;
 }
-
 
 
 
@@ -299,7 +278,12 @@ div.tab button.active {
   font-weight: 600;
   color: #2D2D2D;
 	transition: all .25s ease-in-out;
+	/*margin-top: 48px;*/
 }
+
+.container--about .more {
+	margin-top: 48px;
+	}
 
 
 
