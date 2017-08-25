@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <title>Alex Wu's Design Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Alex Wu's Design Portfolio">
+    <meta name="author" content="Alex Wu">
+    <link href="global.css" rel="stylesheet">
+    <link href="responsive.css" rel="stylesheet">
+    <link href="topbar.css" rel="stylesheet">
+    <link href="animation.css" rel="stylesheet">
+    <link href="flex-layout-attribute.min.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="homepage.js"></script>
+    <script type="text/javascript" src="header.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+
+<!--
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script> -->
+
+
+</head>
+
+<body>
+
+
+<!--   Top menu section start here   -->
+
+
+
+
+<section id="nav" class="nav" layout="row center-justify">
+    <div>
+      <img id="logo" class="logo" src="img/logo.svg" self="left">
+    </div>
+    <div id="hamburger" class="hamburger" self="right">
+      <span class="hamburger__top-bun"></span>
+      <span class="hamburger__bottom-bun"></span>
+    </div>
+</section>
+
+<dropdown id="dropdown" class="dropdown" >
+  <div class="home-container">
+    <div class="dropdown-top-row" layout="rows top-justify">
+        <div id="dropdown-logo"self="size-x3">
+          <img class="logo" src="img/logo.svg" self="left">
+        </div>
+
+        <ul self="size-x3">
+          <li class="menu-title"><a href="works.html" class="underline">Works</a></li>
+          <li class="menu-title"><a class="underline">Resume</a></li>
+          <li class="menu-title"><a class="underline">Contact</a></li>
+        </ul>
+
+        <p class="menu-description" self="size-x6">Hi, I’m Alex, a product designer. Now, I’m in a rotation program at SAP, before that, I designed healthcare products at Cornell University, studied social design at School of Visual Arts, designed holistic experiences at TEDx.</p>
+    </div>
+
+    <div id="dropdown-bottom-row" class="dropdown-bottom-row" layout="rows top-justify">
+        <div id="dropdown-contact" self="size-x3">
+          <label>—  Emial</label>
+          <p class="contact"><a class="underline-2" href="mailto:alexmtwu@gmail.com?Subject=Hello!" target="_top">alexmtwu@gmail.com</a></p>
+        </div>
+        <div id="dropdown-contact" self="size-x3">
+          <label>—  Mobile</label>
+          <p class="contact">949 529 7847</p>
+        </div>
+        <div id="dropdown-contact" self="size-x3">
+          <label>—  Location</label>
+          <p class="contact"><a href="https://www.google.com/maps/@37.804208,-122.2661778,13.64z" target="_blank" class="contact underline-2">Oakland, CA</a></p>
+        </div>
+        <div id="dropdown-contact" self="size-x3">
+          <label>—  Social</label>
+          <div class="menu-social-icon">
+            <a href="https://www.instagram.com/alexmtwu/" target="_blank"><img class="instagram" src="img/instagram.svg" alt="Instagram"></a>
+
+            <a href="https://www.linkedin.com/in/alexmtwu/" target="_blank"><img class="linkedin" src="img/linkedin.svg" alt="LinkedIn"></a>
+          </div>
+        </div>
+
+    </div>
+  </div>
+</dropdown>
+
+
+
+
+
+
+<!--   Menu section end here   -->
+
+
+
+<!--   header section start here   -->
+
+<div class="home-container">
+
+</div> <!-- home-container -->
+
+
+
+
+
+<script type="text/javascript">
+
+// menu show/hidden
+var $document = $(document),
+	$element = $('.nav'),
+	className = 'nav-bg';
+
+$document.scroll(function() {
+	if ($document.scrollTop() >= 180) {
+		$element.addClass(className);
+	} else {
+		$element.removeClass(className);
+	}
+});
+
+
+
+// tab1 defaultOpen
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+var x = document.getElementById("defaultOpen").offsetWidth - 40;
+$(".line").css("width", x);
+
+
+// tab unerline
+$(".tab button").click(function(e) {
+
+  var x = $(this).css("width");
+  var y = parseInt(x) - 40; //returns without px
+  $(".line").css("width", y);
+
+  if ($(this).hasClass('slider')) {
+    reurn;
+  }
+
+
+  /* Add the slider movement */
+  // Work out how far the slider needs to go
+  var offset = $(this).offset().left - $(this).parent().offset().left;
+
+  $(".line").css({
+    left: offset + "px"
+  });
+});
+
+</script>
+
+</body>
+</html>

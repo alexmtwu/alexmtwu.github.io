@@ -16,9 +16,13 @@
   -ms-transform: translate(0,-20px);
   -webkit-transform: translate(0,-20px);
   transition-delay: 0s !important;
-
-
+  border-radius: 8px;
 }
+
+.card:hover .card-hero {
+  padding: 0;
+}
+
 
 
 /* card-footer */
