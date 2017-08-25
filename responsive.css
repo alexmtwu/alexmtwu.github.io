@@ -77,6 +77,11 @@
 	  line-height: 42px;
 	}
 
+	.line-break:after {
+    content:"\a";
+    white-space:pre;
+	}
+
 	/*dropdown*/
 	#dropdown-logo {
 		display: none;
