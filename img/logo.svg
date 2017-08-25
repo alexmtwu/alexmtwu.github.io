@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="44px" height="38px" viewBox="0 0 44 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 16</title>
+<svg width="35px" height="31px" viewBox="0 0 35 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 12</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="mockup" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Portfolio-Copy-17" transform="translate(-28.000000, -27.000000)">
-            <g id="Group-12">
-                <g id="Group-16" transform="translate(29.000000, 25.000000)">
-                    <rect id="Rectangle-3" x="0" y="0" width="42" height="42"></rect>
-                    <g id="Group" transform="translate(1.000000, 4.000000)" stroke="#212121" stroke-linecap="round">
-                        <path d="M8.84733371,24.0501283 L13.8760882,17.6013995 C14.3090373,17.0461982 15.0668453,16.9988361 15.5659787,17.4929198 L19.1667604,21.0572726 C19.6671121,21.5525623 20.4896714,21.5687429 21.0171038,21.081301 L24.9258815,17.4688914 C25.4474462,16.9868723 26.2097952,17.0624003 26.6249791,17.6325667 L31.2981208,24.0501283" id="Path-2-Copy-2" stroke-width="3.2" transform="translate(20.072727, 20.596493) scale(1, -1) translate(-20.072727, -20.596493) "></path>
-                        <path d="M0,34 L15.285605,3.92590771 C17.8892935,-1.19679217 22.111974,-1.19429839 24.714395,3.92590771 L40,34" id="Path-2" stroke-width="2.88"></path>
-                    </g>
-                </g>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Portfolio-Copy-28" transform="translate(-32.000000, -27.000000)">
+            <g id="Group-12" transform="translate(32.000000, 25.000000)">
+                <rect id="Rectangle-3" x="0" y="0" width="35" height="35"></rect>
+                <g id="Group" transform="translate(0.000000, 2.000000)"></g>
+                <path d="M24.4078759,16.8916171 L20.1000497,7.82047424 C18.252776,3.93060413 15.8502973,3.92953196 14.0025144,7.82047424 L9.75166087,16.7716477 L12.9914991,21.2182772 L15.3353916,18.7350554 C16.3060699,17.7066765 17.8788601,17.6847481 18.8844688,18.679418 L21.4589588,21.2259033 L24.4078759,16.8916171 Z M25.786988,19.7956625 L23.4385224,23.2474117 C22.5823614,24.5057879 20.9498048,24.6747244 19.8818378,23.6183744 L17.1405346,20.9068905 L14.6337031,23.562737 C13.598756,24.6592051 11.9710224,24.5379635 11.0786639,23.3132149 L8.39456601,19.6293307 L2.565193,31.9044489 C2.22585776,32.6189992 1.40954738,32.9038404 0.741912739,32.5406596 C0.0742780974,32.1774788 -0.191861149,31.3038051 0.147474094,30.5892548 L11.5847955,6.50528013 C14.4380533,0.497073546 19.6656187,0.499406479 22.5177686,6.50528013 L33.95509,30.5892548 C34.2944253,31.3038051 34.028286,32.1774788 33.3606514,32.5406596 C32.6930167,32.9038404 31.8767063,32.6189992 31.5373711,31.9044489 L25.786988,19.7956625 Z" id="Combined-Shape" fill="#2D2D2D" fill-rule="nonzero"></path>
             </g>
         </g>
     </g>
