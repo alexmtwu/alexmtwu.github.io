@@ -82,6 +82,10 @@
     white-space:pre;
 	}
 
+	/* topbar */
+	.nav {
+		padding: 20px 20px;
+	}
 
 
 	/*dropdown*/
@@ -99,11 +103,6 @@
 
 	#dropdown-bottom-row {
 		display: none;
-	}
-
-	.nav {
-		padding: 10px 20px;
-
 	}
 
 }

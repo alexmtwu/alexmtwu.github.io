@@ -20,6 +20,7 @@ $('#hamburger').on('click',function(){
 		$("#overlay").hide();
 		$("#logo").css('opacity', '1');
 
+
 	} else {
 		$(this).attr('data-click-state', 1)
     $("#dropdown").css('opacity', '1');
@@ -27,7 +28,6 @@ $('#hamburger').on('click',function(){
 		$('html, body').css('overflow-y', 'hidden', 'height', '100%')
 		$("#overlay").show();
 		$("#logo").css('opacity', '0');
-
 
 }
 });
