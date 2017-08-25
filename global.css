@@ -102,8 +102,8 @@ a {
 
 .container--header {
   height: 50vh;
-  min-height: 260px;
-	padding-bottom: 32px;
+  min-height: 300px;
+	/*padding-bottom: 32px;*/
 	margin: 0 20px;
 	/*top: 10%;
 	-webkit-transform: translateY(-10%);
