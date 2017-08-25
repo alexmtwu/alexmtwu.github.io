@@ -97,10 +97,7 @@ a {
 .home-container{
 	max-width:1125px;
 	margin: 0 auto;
-
 }
-
-
 
 .container--header {
   height: 50vh;
@@ -108,10 +105,10 @@ a {
 	/*padding-bottom: 32px;*/
 	padding: 0;
 	margin: 0 20px;
-	/*top: -25%;
-	-webkit-transform: translateY(25%);
-	-ms-transform: translateY(25%);
-	transform: translateY(25%);*/
+	top: -15%;
+	-webkit-transform: translateY(15%);
+	-ms-transform: translateY(15%);
+	transform: translateY(15%);
 }
 
 
