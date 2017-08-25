@@ -299,12 +299,10 @@ div.tab button.active {
   font-weight: 600;
   color: #2D2D2D;
 	transition: all .25s ease-in-out;
-	/*margin-top: 48px;*/
+	margin-top: 48px;
 }
 
-.container--about .more {
-	margin-top: 48px;
-	}
+
 
 
 #more a {

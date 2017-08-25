@@ -15,7 +15,7 @@ $('#hamburger').on('click',function(){
 	if($(this).attr('data-click-state') == 1) {
 		$(this).attr('data-click-state', 0)
     $("#dropdown").css('opacity', '0');
-		$("#dropdown").slideToggle(350);
+		$("#dropdown").slideToggle(250);
 		$('html, body').css('overflow-y', 'auto', 'height', 'auto')
 		$("#overlay").hide();
 		$("#logo").css('opacity', '1');
@@ -23,7 +23,7 @@ $('#hamburger').on('click',function(){
 	} else {
 		$(this).attr('data-click-state', 1)
     $("#dropdown").css('opacity', '1');
-		$("#dropdown").slideToggle(350);
+		$("#dropdown").slideToggle(250);
 		$('html, body').css('overflow-y', 'hidden', 'height', '100%')
 		$("#overlay").show();
 		$("#logo").css('opacity', '0');

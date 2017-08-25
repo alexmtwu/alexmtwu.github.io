@@ -57,19 +57,27 @@
 		font-size: 14px;
 	}
 
-	/*.container {
-		padding: 0;
+
+	/*.center {
+	    margin: auto;
+	    position: relative;
+	    top: 50%;
+	    -webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	    transform: translateY(-50%);
 	}*/
 
+
+
 	.container--header {
-		height: 55vh;
+		height: 80vh;
 	  min-height: 300px;
 		padding: 0;
 		margin: 0 20px;
-		top: 10%;
-		-webkit-transform: translateY(-10%);
-		-ms-transform: translateY(-10%);
-		transform: translateY(-10%);
+		top: 5%;
+		-webkit-transform: translateY(-5%);
+		-ms-transform: translateY(-5%);
+		transform: translateY(-5%);
 	}
 
 	.home-title {
