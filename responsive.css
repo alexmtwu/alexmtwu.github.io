@@ -57,6 +57,17 @@
 		font-size: 14px;
 	}
 
+	.container--header {
+	  height: 50vh;
+	  min-height: 300px;
+		/*padding-bottom: 32px;*/
+		margin: 0 20px;
+		top: 10%;
+		-webkit-transform: translateY(10%);
+		-ms-transform: translateY(10%);
+		transform: translateY(10%);
+	}
+
 	.home-title {
 		font-size: 37px;
 	  line-height: 42px;
