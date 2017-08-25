@@ -57,6 +57,10 @@
 		font-size: 14px;
 	}
 
+	.container {
+		padding: 96px 0;
+	}
+
 	.container--header {
 	  height: 40vh;
 	  min-height: 300px;
