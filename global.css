@@ -100,15 +100,18 @@ a {
 
 }
 
+
+
 .container--header {
   height: 50vh;
   min-height: 300px;
 	/*padding-bottom: 32px;*/
+	padding: 0;
 	margin: 0 20px;
-	top: -25%;
+	/*top: -25%;
 	-webkit-transform: translateY(25%);
 	-ms-transform: translateY(25%);
-	transform: translateY(25%);
+	transform: translateY(25%);*/
 }
 
 
@@ -117,10 +120,10 @@ a {
   color: #979797;
   letter-spacing: 0;
   line-height: 58px;
-	top: 50%;
+	/*top: 50%;
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
+	transform: translateY(-50%);*/
 }
 
 .home-title span {
