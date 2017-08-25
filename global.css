@@ -102,9 +102,13 @@ a {
 
 .container--header {
   height: 50vh;
-  min-height: 300px;
+  min-height: 260px;
 	padding-bottom: 32px;
 	margin: 0 20px;
+	/*top: 10%;
+	-webkit-transform: translateY(-10%);
+	-ms-transform: translateY(-10%);
+	transform: translateY(-10%);*/
 }
 
 
@@ -123,7 +127,6 @@ a {
 
 .home-title:hover {
 	cursor: pointer;
-
 }
 
 
