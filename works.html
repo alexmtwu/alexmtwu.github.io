@@ -14,9 +14,9 @@
     <link href="responsive.css" rel="stylesheet">
     <link href="animation.css" rel="stylesheet">
     <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="homepage.js"></script>
-    <script type="text/javascript" src="header.js"></script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
 
 
 <!--
@@ -37,13 +37,13 @@
 
 
 <section id="nav" class="nav" layout="row center-justify">
-    <div>
-      <img id="logo" class="logo" src="img/logo.svg" self="left">
-    </div>
-    <div id="hamburger" class="hamburger" self="right">
-      <span class="hamburger__top-bun"></span>
-      <span class="hamburger__bottom-bun"></span>
-    </div>
+      <div>
+        <img id="logo" class="logo" src="img/logo.svg" self="left">
+      </div>
+      <div id="hamburger" class="hamburger" self="right">
+        <span class="hamburger__top-bun"></span>
+        <span class="hamburger__bottom-bun"></span>
+      </div>
 </section>
 
 <dropdown id="dropdown" class="dropdown" >
@@ -89,10 +89,6 @@
 </dropdown>
 
 
-
-
-
-
 <!--   Menu section end here   -->
 
 
@@ -101,11 +97,294 @@
 
 <div class="home-container">
 
+
+    <div id="overlay"></div>
+
+<!--   header section end here   -->
+
+
+
+
+<!--   Work section start here   -->
+
+    <section class="container container--work" >
+        <div class="section-title">
+            <h1>Works</h1>
+        </div>
+
+
+        <div class="tab">
+          <button id="defaultOpen" class="tablinks" onclick="openTab(event, 'tab1')">UX/UI</button>
+          <button class="tablinks" onclick="openTab(event, 'tab2')">Photography</button>
+          <button class="tablinks" onclick="openTab(event, 'tab3')">Archives</button>
+        </div> <!-- tab -->
+
+        <div class="tab-underline">
+          <span id="line" class="line"></span>
+        </div> <!-- tab-underline -->
+
+
+
+        <div  id="tab1" class="tabcontent">
+          <!--   1-column start here   -->
+          <div layout="rows top-left">
+
+              <li style="display: inline-block;">
+                <a href="">
+              			<div class="card card-col-1">
+
+                      <div class="card-hero">
+                          <img src="img/square-1.png" alt="Card" style="width:100%; height:100%;">
+                      </div>
+              				<div class="card-body">
+                        <div class="card-title">MatchPret <span class="card-description">Language barrier in healthcare</span>
+                        </div>
+              				</div>
+
+                			<div class="card-footer">
+                				<div class="card-footer-wrapper" layout="row bottom-left">
+                  				<div class="card-tag is-notShownIfHover">SVA / Healthcare</div>
+                          <div class="card-tag is-shownIfHover" self="left">View more</div>
+
+                				</div>
+                		  </div>
+                  </div>
+              	</a>
+              </li>
+          </div>
+
+
+
+          <!--   2-column start here   -->
+
+          <div layout="rows top-left">
+
+              <li style="display: inline-block;">
+                <a href="">
+                    <div class="card card-col-2">
+                      <div class="card-hero">
+                        <img src="img/square.png" alt="Card" style="width:100%;height:100%;">
+                      </div>
+                      <div class="card-body">
+                        <div class="card-title">Meetingwave <span class="card-description">Lightweight meeting arrangment</span>
+                        </div>
+                      </div>
+
+                      <div class="card-footer">
+                        <div class="card-footer-wrapper" layout="row bottom-left">
+                          <div class="card-tag is-notShownIfHover">SAP / Enterprise Software</div>
+                            <div class="card-tag is-shownIfHover" self="left">View more</div>
+                        </div>
+                      </div>
+                    </div>
+                </a>
+              </li>
+
+              <li style="display: inline-block;">
+                <a href="">
+                    <div class="card card-col-2">
+                      <div class="card-hero">
+                        <img src="img/square.png" alt="Card" style="width:100%;height:100%;">
+                      </div>
+                      <div class="card-body">
+                        <div class="card-title">Mailwave
+   <span class="card-description">Measuring email's success — from start to finish</span>
+                        </div>
+                      </div>
+
+                      <div class="card-footer">
+                        <div class="card-footer-wrapper" layout="row bottom-left">
+                          <div class="card-tag is-notShownIfHover">SAP / Enterprise Software</div>
+                            <div class="card-tag is-shownIfHover" self="left">View more</div>
+                        </div>
+                      </div>
+                  </div>
+                </a>
+              </li>
+          </div>
+
+
+
+          <!--   3-column start here   -->
+          <div layout="rows top-left">
+
+              <li style="display: inline-block;">
+                <a href="">
+                    <div class="card card-col-3 ">
+                      <div class="card-hero">
+                        <img src="img/square.png" alt="Card" style="width:100%;height:300px;">
+                      </div>
+                      <div class="card-body">
+                        <div class="card-title">Yadl <span class="card-description">Improving the efficacy of reporting ADLs</span>
+                        </div>
+                      </div>
+
+                      <div class="card-footer">
+                        <div class="card-footer-wrapper" layout="row bottom-ri">
+                          <div class="card-tag is-notShownIfHover">Cornell Tech / Healthcare</div>
+                            <div class="card-tag is-shownIfHover" self="left">View more</div>
+                        </div>
+                      </div>
+                    </div>
+                </a>
+              </li>
+
+              <li style="display: inline-block;">
+                <a href="">
+                    <div class="card card-col-3">
+                      <div class="card-hero">
+                        <img src="img/square.png" alt="Card" style="width:100%;height:300px;">
+                        </svg>
+                      </div>
+                      <div class="card-body">
+                        <div class="card-title">PetHood
+   <span class="card-description">Animal adoption matching</span>
+                        </div>
+                      </div>
+
+                      <div class="card-footer">
+                        <div class="card-footer-wrapper" layout="row bottom-left">
+                          <div class="card-tag is-notShownIfHover">Google / Design exercise</div>
+                          <div class="card-tag is-shownIfHover" self="left">View more</div>
+                        </div>
+                      </div>
+                  </div>
+                </a>
+              </li>
+
+              <li style="display: inline-block;">
+                <a href="">
+                    <div class="card card-col-3">
+                      <div class="card-hero">
+                        <img src="img/square.png" alt="Card" style="width:100%;height:300px;">
+                      </div>
+                      <div class="card-body">
+                        <div class="card-title">Natured
+   <span class="card-description">Measuring email's success — from start to finish</span>
+                        </div>
+                      </div>
+
+                      <div class="card-footer">
+                        <div class="card-footer-wrapper" layout="rows bottom-left">
+                          <div class="card-tag is-notShownIfHover">SVA / Sustainability</div>
+                        </div>
+                        <div class="card-tag is-shownIfHover" self="left">View more</div>
+                      </div>
+                  </div>
+                </a>
+              </li>
+
+              <li style="display: inline-block;">
+                <a href="">
+                    <div class="card card-col-3 ">
+                      <div class="card-hero">
+                        <img src="img/square.png" alt="Card" style="width:100%;height:300px;">
+                      </div>
+                      <div class="card-body">
+                        <div class="card-title">Medbuzzer <span class="card-description">Improving care team - patient communication efficiency</span>
+                        </div>
+                      </div>
+
+                      <div class="card-footer">
+                        <div class="card-footer-wrapper" layout="row bottom-left">
+                          <div class="card-tag is-notShownIfHover">Cornell Tech / Healthcare</div>
+                          <div class="card-tag is-shownIfHover" self="left">View more</div>
+                        </div>
+                      </div>
+                    </div>
+                </a>
+              </li>
+
+              <li style="display: inline-block;">
+                <a href="">
+                    <div class="card card-col-3">
+                      <div class="card-hero">
+                        <img src="img/square.png" alt="Card" style="width:100%;height:300px;">
+                      </div>
+                      <div class="card-body">
+                        <div class="card-title">Clo
+   <span class="card-description">From buying to borrowing -
+  The over consumption of clothing</span>
+                        </div>
+                      </div>
+
+                      <div class="card-footer">
+                        <div class="card-footer-wrapper" layout="row bottom-left">
+                          <div class="card-tag is-notShownIfHover">SVA / Sustainability</div>
+                        </div>
+                        <div class="card-tag is-shownIfHover" self="left">View more</div>
+                      </div>
+                  </div>
+                </a>
+              </li>
+
+              <li style="display: inline-block;">
+                <a href="">
+                    <div class="card card-col-3">
+                      <div class="card-hero">
+                        <img src="img/square.png" alt="Card" style="width:100%;height:300px;">
+                      </div>
+                      <div class="card-body">
+                        <div class="card-title">Annual Report
+   <span class="card-description">Compare financial performance of tech companies</span>
+                        </div>
+                      </div>
+
+                      <div class="card-footer">
+                        <div class="card-footer-wrapper" layout="row bottom-left">
+                          <div class="card-tag is-notShownIfHover">SVA / Data Visualization</div>
+                          <div class="card-tag is-shownIfHover" self="left">View more</div>
+                        </div>
+                      </div>
+                  </div>
+                </a>
+              </li>
+
+          </div>
+
+        </div> <!-- tab1 -->
+
+        <div  id="tab2" class="tabcontent">
+        </div> <!-- tab2 -->
+
+        <div  id="tab3" class="tabcontent">
+        </div> <!-- tab3 -->
+
+
+    </section> <!-- work -->
+<!--   Work section end here   -->
+
+<!--   footer section start here   -->
+    <footer class="container container--footer" style="border-top: 1px solid #CCC9C9">
+      <div class="center">
+          <div layout="rows center-spread">
+            <div class="location">
+              <a class="underline-2" href="https://www.google.com/maps/@37.804208,-122.2661778,13.64z" target="_blank" >Oakland, CA</a>
+            </div>
+            <div class = "email">
+              <a class="underline-2" href="mailto:alexmtwu@gmail.com?Subject=Hello!" target="_top">alexmtwu@gmail.com</a>
+            </div>
+            <div class="social-icon" style="width:80px, height:80px">
+              <a href="https://www.instagram.com/alexmtwu/" target="_blank"><img class="instagram" src="img/instagram.svg" alt="Instagram"></a>
+
+              <a href="https://www.linkedin.com/in/alexmtwu/" target="_blank"><img class="linkedin" src="img/linkedin.svg" alt="LinkedIn"></a>
+            </div>
+          </div>
+          <div class="all-rights-reserved" layout="row center-center">
+            © 2017 Alex Wu
+          </div>
+      </div>
+    </footer>
+<!--   footer section end here   -->
+
+
 </div> <!-- home-container -->
 
 
 
 
+<script type="text/javascript" src="homepage.js"></script>
+<script type="text/javascript" src="header.js"></script>
 
 <script type="text/javascript">
 
@@ -121,7 +400,6 @@ $document.scroll(function() {
 		$element.removeClass(className);
 	}
 });
-
 
 
 // tab1 defaultOpen

@@ -5,12 +5,15 @@
 	.home-container {
 		max-width: 750px;
 	}
+	.card-col-1 {
+		width: 750px;
+	}
 
 	.card-col-2 {
 		width: 375px;
 	}
 
-	.card-col-2 .card-hero {
+	.card-col-2 .card-image {
 		height: 300px;
 	}
 
@@ -31,7 +34,11 @@
 		max-width: 375px;
 	}
 
-	.card-col-1 .card-hero {
+	.card-col-1 {
+		width: 375px;
+	}
+
+	.card-col-1 .card-image {
 		height: 300px;
 	}
 

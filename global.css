@@ -31,11 +31,15 @@ html, body {
 }
 
 
-/*h1 {
-	font-size: 44px;
-	font-weight: 400;
+h1 {
+	font-size: 49px;
+	font-weight: 800;
 	color: #2D2D2D;
-}*/
+	letter-spacing: 0;
+	line-height: 58px;
+	margin-bottom: 48px;
+	margin-left: 20px
+}
 
 /*h2 {
 	font-size: 28px;
@@ -226,24 +230,52 @@ div.tab button.active {
 
 /* card */
 
-.card-hero {
+
+/*.card-hero {
 	padding: 20px 20px 0 20px;
 	transition: all .1s ease-in-out;
 	-webkit-transition: all .1s ease-in-out;
-}
-.card-title {
-	padding: 0 20px;
-}
-
-.card-footer {
-	padding: 0 20px;
-}
-
-.card {
-	/*padding: 20px 20px;*/
 	margin-bottom: 32px;
+	max-width: 100%;
+}*/
+
+.card-hero{
+	background-size: contain;
+	background-position: top;
+	background-repeat: no-repeat;
+	position:relative;
+	clear: both;
+	float: left;
+	overflow: auto;
+	width: 100%;
+	padding: 20px 20px 0 20px;
+	margin-bottom: 24px;
+	transition: all .1s ease-in-out;
+	-webkit-transition: all .1s ease-in-out;
 }
 
+.card-image{
+	width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+	-webkit-transition: all 0.5s ease;
+				transition: all 0.5s ease;
+-webkit-transform: scale3d(1, 1, 1);
+				transform: scale3d(1, 1, 1);
+}
+
+.card-col-1 .card-image, .card-col-2 .card-image {
+	height: 400px;
+}
+
+.card-col-3 .card-image {
+	height: 300px;
+}
+
+.card-col-1 {
+	width: 1125px;
+}
 
 .card-col-2{
   width: 562.5px;
@@ -253,26 +285,38 @@ div.tab button.active {
   width: 375px;
 }
 
-.card-hero {
-  margin-bottom: 32px;
+.card {
+	/*padding: 20px 20px;*/
+	margin-bottom: 32px;
 }
 
+.card-col-1:hover .card-image {
+	background-image:url(img/matchpret-b.jpg);
+}
+
+
+.card-title, .card-description {
+	font-size: 30px;
+	line-height: 34px;
+	margin-bottom: 24px;
+}
+
+
 .card-title {
-  font-size: 30px;
   font-weight: 800;
   color: #2D2D2D;
-  line-height: 34px;
+	padding: 0 20px;
   margin-right: 12px;
-  margin-bottom: 32px;
   float: left;
 }
 
 .card-description {
-  font-size: 30px;
   font-weight: 300;
   color: #979797;
-  line-height: 34px;
-  margin-bottom: 32px;
+}
+
+.card-footer {
+	padding: 0 20px;
 }
 
 .card-col-3 .card-title, .card-col-3 .card-description{
@@ -284,7 +328,7 @@ div.tab button.active {
   font-size: 13px;
   font-weight:500;
   color: #797979;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 }
 
 

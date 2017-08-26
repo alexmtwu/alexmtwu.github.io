@@ -10,8 +10,6 @@
 .card:hover {
   box-shadow: 0 25px 40px rgba(0,0,0,.16);
   -webkit-box-shadow: 0 25px 40px rgba(0,0,0,.16);
-  /*display: inline-block !important;*/
-
   transform: translate(0,-20px);
   -ms-transform: translate(0,-20px);
   -webkit-transform: translate(0,-20px);
@@ -22,6 +20,12 @@
 .card:hover .card-hero {
   padding: 0;
 }
+
+.card:hover .card-image {
+  -webkit-transform: scale3d(1.05, 1.05, 1);
+         transform: scale3d(1.05, 1.05, 1);
+}
+
 
 
 
