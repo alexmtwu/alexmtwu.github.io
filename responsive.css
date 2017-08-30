@@ -68,13 +68,13 @@
 	}
 
 	.content-title, .content-description {
-		font-size: 18px;
+		font-size: 17px;
 		letter-spacing: -0.4px;
-		line-height: 26px;
+		line-height: 24px;
 	}
 
 	h3 {
-		font-size: 16px;
+		font-size: 20px;
 	}
 
 	div.tab button{
