@@ -1,26 +1,33 @@
 /* responsive */
 
 
-@media only screen and (max-width: 1125px) {
+@media only screen and (max-width: 1185px) {
 	.home-container {
-		max-width: 750px;
+		max-width: 790px;
 	}
 	.card-col-1 {
 		width: 750px;
 	}
 
 	.card-col-2 {
-		width: 375px;
+		width: 355px;
 	}
 
 	.card-col-2 .card-image {
 		height: 300px;
 	}
 
-	.card-col-2 .card-title, .card-col-2 .card-description {
-	  font-size: 22px;
-	  line-height: 28px;
+	.card-col-2 .card-title {
+		font-size: 27px;
+    line-height: 26px;
 	}
+
+	.card-col-2 .card-description {
+		font-size: 16px;
+	  line-height: 22px;
+	}
+
+
 
 }
 
@@ -28,23 +35,32 @@
 
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 790px) {
 
 	.home-container {
-		max-width: 375px;
+		max-width: 395px;
 	}
 
 	.card-col-1 {
-		width: 375px;
+		width: 355px;
 	}
 
 	.card-col-1 .card-image {
 		height: 300px;
 	}
 
-	.card-col-1 .card-title, .card-col-1 .card-description {
+	.card-col-1 .card-title, .card-col-2 .card-title, .card-col-3 .card-title {
 	  font-size: 22px;
 	  line-height: 28px;
+	}
+
+	.card-col-1 .card-description, .card-col-2 .card-description, .card-col-3 .card-description {
+		font-size: 16px;
+	  line-height: 22px;
+	}
+
+	.card-tag {
+		font-size: 11px;
 	}
 
 	.location, .email, .social-icon {
