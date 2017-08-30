@@ -38,11 +38,11 @@
 @media only screen and (max-width: 790px) {
 
 	.home-container {
-		max-width: 395px;
+		max-width: 375px;
 	}
 
-	.card-col-1 {
-		width: 355px;
+	.card {
+		width: 335px;
 	}
 
 	.card-col-1 .card-image {
