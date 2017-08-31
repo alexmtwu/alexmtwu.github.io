@@ -24,7 +24,7 @@
 
 body {
 	font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	background-color: #fafafa;
+	background-color: #f8f8f8;
 }
 
 html, body {
@@ -242,8 +242,8 @@ div.tab button.active {
 }
 
 .card {
-	box-shadow: 0 4px 4px rgba(0,0,0,.08);
-  -webkit-box-shadow: 0 4px 4px rgba(0,0,0,.08);
+	box-shadow: 0 10px 10px rgba(0,0,0,.08);
+  -webkit-box-shadow: 0 10px 10px rgba(0,0,0,.08);
 	margin: 20px 20px;
 	background-color: #fff;
 	/*border: 1px solid #e6e6e6;*/
@@ -355,7 +355,7 @@ div.tab button.active {
 .more a {
   font-size: 17px;
   font-weight: 600;
-  color: #2D2D2D;
+	color: #2D2D2D;
 	transition: all .25s ease-in-out;
 	margin-top: 48px;
 }
@@ -365,15 +365,19 @@ div.tab button.active {
 
 #more a {
 	padding: 16px 48px;
-	border: 1px solid #2D2D2D;
+	/*border: 1px solid #2D2D2D;*/
+	color: #fff;
+	background-color:#2D2D2D;
 	transition: all .25s ease-in-out;
 	-webkit-transition: all .25s ease-in-out;
-	border-radius: 0px;
+	border-radius: 3px;
 }
 
 #more a:hover {
-	background-color:#2D2D2D;
-	color: #fff;
+	background-color:#fff;
+	color: #2D2D2D;
+	box-shadow: 0 0 12px rgba(0,0,0,.08);
+  -webkit-box-shadow: 0 0 12px rgba(0,0,0,.08);
 }
 
 
