@@ -241,6 +241,10 @@ div.tab button.active {
   width: 355px;
 }
 
+.card-col-4 {
+	width: 246.25px;
+}
+
 .card {
 	box-shadow: 0 10px 10px rgba(0,0,0,.08);
   -webkit-box-shadow: 0 10px 10px rgba(0,0,0,.08);
