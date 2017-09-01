@@ -12,7 +12,7 @@
   font-size: 12px;
   font-weight: bold;
   color: #AEAEAE;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 h1 {
@@ -23,14 +23,14 @@ h1 {
   letter-spacing: 0;
   line-height: 1.2;
   margin-left: 0;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 
 }
 
 h2 {
   font-size: 24px;
   font-weight: 400;
-  color: #2D2D2D;
+  color: #4B4F56;
   margin-top: 0;
   /*margin-bottom: 60px;*/
 }
@@ -46,9 +46,9 @@ h2 {
 }
 
 h3 {
-  font-size: 32px;
+  font-size: 34px;
   font-weight: 800;
-  line-height: 1.58;
+  line-height: 2;
   color: #2D2D2D;
   margin-top: 80px;
   margin-bottom: 24px;
@@ -57,7 +57,7 @@ h3 {
 
 P, blockquote, li, .quote {
   font-size: 18px;
-  line-height: 1.58;
+  line-height: 1.8;
 }
 
 
