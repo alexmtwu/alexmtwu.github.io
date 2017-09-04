@@ -337,14 +337,10 @@
         </div> <!-- tab1 -->
 
         <div  id="tab2" class="tabcontent">
-          <script type="text/javascript">
-            var userFeed = new Instafeed({
-                get: 'user',
-                userId: '2799829',
-                accessToken: '	6d8922cd27f9448d8e061b6591bbd47e'
-            });
-            userFeed.run();
-          </script>
+          <div>
+            <div id="instafeed">
+
+            </div>
         </div> <!-- tab2 -->
 
         <div  id="tab3" class="tabcontent">
@@ -463,6 +459,15 @@ $(".tab button").click(function(e) {
   });
 });
 
+</script>
+
+<script type="text/javascript">
+  var userFeed = new Instafeed({
+      get: 'user',
+      userId: '2799829',
+      accessToken: '	6d8922cd27f9448d8e061b6591bbd47e'
+  });
+  userFeed.run();
 </script>
 
 </body>
