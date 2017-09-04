@@ -15,6 +15,8 @@
     <link href="css/animation.css" rel="stylesheet">
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/instafeed.min.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
@@ -337,10 +339,7 @@
         </div> <!-- tab1 -->
 
         <div  id="tab2" class="tabcontent">
-          <div>
-            <div id="instafeed">
-
-            </div>
+          <div w3-include-html="photography.html"></div>
         </div> <!-- tab2 -->
 
         <div  id="tab3" class="tabcontent">
@@ -413,7 +412,7 @@
 
 
 
-
+<script>w3.includeHTML();</script>
 <script type="text/javascript" src="js/homepage.js"></script>
 <script type="text/javascript" src="js/header.js"></script>
 <script type="text/javascript">
