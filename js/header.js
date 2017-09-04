@@ -86,7 +86,7 @@
 
 $(function () {
 
-    var wordsArray = [" Do Design."," Enjoy Coding."," Practice Ceramics."];
+    var wordsArray = [" Do Design."," Enjoy Coding."," Think in Tao", " Practice Ceramics."];
     index = 0;
 
 
