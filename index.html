@@ -14,6 +14,7 @@
     <link href="css/responsive.css" rel="stylesheet">
     <link href="css/animation.css" rel="stylesheet">
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/instafeed.min.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
@@ -336,7 +337,14 @@
         </div> <!-- tab1 -->
 
         <div  id="tab2" class="tabcontent">
-          
+          <script type="text/javascript">
+            var userFeed = new Instafeed({
+                get: 'user',
+                userId: '2799829',
+                accessToken: 'YOUR_ACCESS_TOKEN'
+            });
+            userFeed.run();
+          </script>
         </div> <!-- tab2 -->
 
         <div  id="tab3" class="tabcontent">
