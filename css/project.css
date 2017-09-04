@@ -271,17 +271,12 @@ _________________________________________*/
 
 /* Card
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*.grid-card {
-    width: 100%;
-    background-color: #ffffff;
-    text-align: center;
-    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, .08);
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -ms-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
-    transition: all 0.2s ease;
-}*/
+
+
+.container--photo-grid {
+    max-width: 1185px;
+    margin: 0 auto;
+}
 
 .photo-grid-card {
     width: 100%;
@@ -292,35 +287,12 @@ _________________________________________*/
     margin: 0 0 24px 0;
 }
 
-/*.container--grid {
-    margin: 110px auto;
-    max-width: 1185px;
-    padding-top: 150px;
-}*/
-
-.container--photo-grid {
-    max-width: 1185px;
-    margin: 0 auto;
-}
-
-/*.grid-content {
-    padding-top:140px;
-    padding-bottom:70px;
-    max-width: 1185px;
-    margin: 0 auto;
-}*/
-
 
 .photo-grid-card-image{
     display: block;
     width: 100%;
 }
-/*.grid-card-image{
-    display: block;
-    width: 100%;
-    margin-bottom: 28px;
-    padding-top:20px;
-}*/
+
 
 .container--photo-grid li {
     width: 260px;
