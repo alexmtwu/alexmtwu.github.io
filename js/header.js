@@ -98,7 +98,7 @@ $(function () {
         if (index === wordsArray.length) {
             index = 0;
         }
-        setTimeout(cycle, 2000);
+        setTimeout(cycle, 1500);
     }
     cycle();
 });
