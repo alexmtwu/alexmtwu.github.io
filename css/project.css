@@ -340,13 +340,30 @@ _________________________________________*/
 	}
 }*/
 
-@media only screen and (max-width: 1225px) {
+@media only screen and (max-width: 1185px) {
 
-    /*.photo-grid-content:first-child {
-        margin-right:8px;
-    }*/
+  .container--full-width {
+      overflow: hidden;
+      width: 100vw;
+      position: relative;
+      left: 50%;
+      right: 50%;
+      margin-left: -50vw;
+      margin-right: -50vw;
+  }
+
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 790px) {
+
+  .photo-grid-content {
+      width: 100%;
+      margin-right: 10px;
+  }
+
+  .photo-grid-content:last-child {
+    margin-right: 0;
+  }
+
     /*h1 {
         margin: 50px 0 16px 0;
         font-size: 32px;
