@@ -28,10 +28,17 @@
   <div w3-include-html="topbar.html"></div>
   <div id="overlay"></div>
 
-
-  <!--   Top menu section start here   -->
-
-  <!--   Menu section end here   -->
+  <!--   topbar section start here   -->
+  <section id="nav" class="nav" layout="row center-justify">
+        <div>
+          <a href="/"><img id="logo" class="logo" src="../img/logo.svg" self="left"></a>
+        </div>
+        <div id="hamburger" class="hamburger" self="right">
+          <span class="hamburger__top-bun"></span>
+          <span class="hamburger__bottom-bun"></span>
+        </div>
+  </section>
+  <!--   topbar section end here   -->
 
 
 <!-- header seciton start here-->
@@ -167,9 +174,7 @@
 
 
     <script>w3.includeHTML();</script>
-
     <script type="text/javascript" src="../js/homepage.js"></script>
-    <script type="text/javascript" src="../js/header.js"></script>
 
     <script type="text/javascript">
 
