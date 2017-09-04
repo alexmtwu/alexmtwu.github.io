@@ -16,7 +16,7 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
   <link href="../css/project.css" rel="stylesheet">
 
-
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
   <script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -24,8 +24,9 @@
 </head>
 <body>
 
-
-  <!--   Top menu section start here   -->
+  <div w3-include-html="topbar.html"></div>
+  <div id="overlay"></div>
+  <!--   topbar section start here   -->
   <section id="nav" class="nav" layout="row center-justify">
         <div>
           <a href="/"><img id="logo" class="logo" src="../img/logo.svg" self="left"></a>
@@ -35,49 +36,7 @@
           <span class="hamburger__bottom-bun"></span>
         </div>
   </section>
-
-  <dropdown id="dropdown" class="dropdown" >
-    <div class="home-container">
-      <div class="dropdown-top-row" layout="rows top-justify">
-          <div id="dropdown-logo"self="size-x3">
-            <a href="/"><img id="logo" class="logo" src="../img/logo.svg" self="left"></a>
-          </div>
-
-          <ul self="size-x3">
-            <li class="menu-title"><a href="../works.html" class="underline">Works</a></li>
-            <li class="menu-title"><a href="../resume.pdf" class="underline">Resume</a></li>
-            <li class="menu-title"><a class="underline">Contact</a></li>
-          </ul>
-
-          <p class="menu-description" self="size-x6">Hi, I’m Alex, a product designer. Now, I’m in a rotation program at SAP, before that, I designed healthcare products at Cornell University, studied social design at School of Visual Arts, designed holistic experiences at TEDx.</p>
-      </div>
-
-      <div id="dropdown-bottom-row" class="dropdown-bottom-row" layout="rows top-justify">
-          <div id="dropdown-contact" self="size-x3">
-            <label>—  Emial</label>
-            <p class="contact"><a class="underline-2" href="mailto:alexmtwu@gmail.com?Subject=Hello!" target="_top">alexmtwu@gmail.com</a></p>
-          </div>
-          <div id="dropdown-contact" self="size-x3">
-            <label>—  Mobile</label>
-            <p class="contact">949 529 7847</p>
-          </div>
-          <div id="dropdown-contact" self="size-x3">
-            <label>—  Location</label>
-            <p class="contact"><a href="https://www.google.com/maps/@37.804208,-122.2661778,13.64z" target="_blank" class="contact underline-2">Oakland, CA</a></p>
-          </div>
-          <div id="dropdown-contact" self="size-x3">
-            <label>—  Social</label>
-            <div class="menu-social-icon">
-              <a href="https://www.instagram.com/alexmtwu/" target="_blank"><img class="instagram" src="img/instagram.svg" alt="Instagram"></a>
-
-              <a href="https://www.linkedin.com/in/alexmtwu/" target="_blank"><img class="linkedin" src="img/linkedin.svg" alt="LinkedIn"></a>
-            </div>
-          </div>
-
-      </div>
-    </div>
-  </dropdown>
-  <!--   Menu section end here   -->
+  <!--   topbar section end here   -->
 
 
 <!-- header seciton start here-->
@@ -373,24 +332,25 @@
 
 
 
+  <script>w3.includeHTML();</script>
   <script type="text/javascript" src="../js/homepage.js"></script>
-  <script type="text/javascript" src="../js/header.js"></script>
 
   <script type="text/javascript">
 
   // menu show/hidden
   var $document = $(document),
-  	$element = $('.nav'),
-  	className = 'nav-bg';
+    $element = $('.nav'),
+    className = 'nav-bg';
 
   $document.scroll(function() {
-  	if ($document.scrollTop() >= 180) {
-  		$element.addClass(className);
-  	} else {
-  		$element.removeClass(className);
-  	}
+    if ($document.scrollTop() >= 180) {
+      $element.addClass(className);
+    } else {
+      $element.removeClass(className);
+    }
   });
   </script>
+
 
 
 
