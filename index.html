@@ -366,6 +366,19 @@
 
 <script type="text/javascript">
 
+// menu show/hidden
+var $document = $(document),
+	$element = $('.nav'),
+	className = 'nav-bg';
+
+$document.scroll(function() {
+	if ($document.scrollTop() >= 180) {
+		$element.addClass(className);
+	} else {
+		$element.removeClass(className);
+	}
+});
+
 // tab1 defaultOpen
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
