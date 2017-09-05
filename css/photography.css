@@ -3,8 +3,8 @@
 }
 
 .photo-grid-card {
-	box-shadow: 0 10px 10px rgba(0,0,0,.06);
-  -webkit-box-shadow: 0 10px 10px rgba(0,0,0,.06);
+	box-shadow: 0 10px 16px rgba(0,0,0,.06);
+  -webkit-box-shadow: 0 10px 16px rgba(0,0,0,.06);
 	margin-top: 20px;
   margin-right: 20px;
   width: 368px;
@@ -34,4 +34,18 @@ li:last-child .photo-grid-card{
 				transition: all 0.2s ease;
 /*-webkit-transform: scale3d(1, 1, 1);
 				transform: scale3d(1, 1, 1);*/
+}
+
+
+@media only screen and (max-width: 790px) {
+
+  .photo-grid-card {
+		width: 335px;
+	}
+
+  .photo-grid-card-image{
+  	width: 100%;
+    height: 335px;
+  }
+
 }
