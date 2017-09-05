@@ -1,4 +1,4 @@
-.container--photo-grid-card {
+/*.container--photo-grid-card {
   margin-left: 20px;
 }
 
@@ -32,8 +32,6 @@ li:last-child .photo-grid-card{
   background-repeat: no-repeat;
 	-webkit-transition: all 0.2s ease;
 				transition: all 0.2s ease;
-/*-webkit-transform: scale3d(1, 1, 1);
-				transform: scale3d(1, 1, 1);*/
 }
 
 
@@ -48,4 +46,35 @@ li:last-child .photo-grid-card{
     height: 335px;
   }
 
+}*/
+
+
+
+
+
+.photo-grid-card {
+	box-shadow: 0 10px 16px rgba(0,0,0,.06);
+  -webkit-box-shadow: 0 10px 16px rgba(0,0,0,.06);
+	margin:20px;
+  width: 335px;
+}
+
+.photo-grid-card-hero{
+  display: block;
+	background-size: contain;
+	background-position: top;
+	background-repeat: no-repeat;
+	width: 100%;
+	transition: all .1s ease-in-out;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+.photo-grid-card-image{
+	width: 100%;
+  height: 335px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+	-webkit-transition: all 0.2s ease;
+				transition: all 0.2s ease;
 }
