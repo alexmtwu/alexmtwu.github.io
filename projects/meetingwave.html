@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <title>YADL | Alex Wu<</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Design Portfolio">
+  <meta name="author" content="Alex Wu">
+
+  <link href="../css/flex-layout-attribute.min.css" rel="stylesheet">
+  <link href="../css/global.css" rel="stylesheet">
+  <link href="../css/topbar.css" rel="stylesheet">
+  <link href="../css/responsive.css" rel="stylesheet">
+  <link href="../css/animation.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
+  <link href="../css/project.css" rel="stylesheet">
+
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16" />
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-106005588-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+<body>
+  <div w3-include-html="topbar.html"></div>
+  <div id="overlay"></div>
+  <!--   topbar section start here   -->
+  <section id="nav" class="nav" layout="row center-justify">
+        <div>
+          <a href="/"><img id="logo" class="logo" src="../img/logo.svg" self="left"></a>
+        </div>
+        <div id="hamburger" class="hamburger" self="right">
+          <span class="hamburger__top-bun"></span>
+          <span class="hamburger__bottom-bun"></span>
+        </div>
+  </section>
+  <!--   topbar section end here   -->
+
+
+<!-- header seciton start here-->
+  <section class="page-wrapper header">
+    <div class="container--text">
+
+
+       <div class="page-title">
+           <h1>Work in Progress...</h1>
+       </div>
+      
+<!--
+       <p class="seciton-divider">...</p> -->
+
+    </div>
+  </section>
+<!-- header seciton end here -->
+
+
+
+
+
+
+  <!--   footer section start here   -->
+  <footer class="container container--footer">
+    <div class="center">
+        <div layout="rows center-spread">
+          <div class="location">
+            <a class="underline-2" href="https://www.google.com/maps/@37.804208,-122.2661778,13.64z" target="_blank" >Oakland, CA</a>
+          </div>
+          <div class = "email">
+            <a class="underline-2" href="mailto:alexmtwu@gmail.com?Subject=Hello!" target="_top">alexmtwu@gmail.com</a>
+          </div>
+          <div class="social-icon" style="width:80px, height:80px">
+            <a href="https://www.instagram.com/alexmtwu/" target="_blank"><img class="instagram" src="../img/instagram.svg" alt="Instagram"></a>
+
+            <a href="https://www.linkedin.com/in/alexmtwu/" target="_blank"><img class="linkedin" src="../img/linkedin.svg" alt="LinkedIn"></a>
+          </div>
+        </div>
+        <div class="all-rights-reserved" layout="row center-center">
+          © 2017 Alex Wu
+        </div>
+    </div>
+  </footer>
+  <!--   footer section end here   -->
+
+
+
+  <script>w3.includeHTML();</script>
+  <script type="text/javascript" src="../js/homepage.js"></script>
+
+  <script type="text/javascript">
+
+  // menu show/hidden
+  var $document = $(document),
+    $element = $('.nav'),
+    className = 'nav-bg';
+
+  $document.scroll(function() {
+    if ($document.scrollTop() >= 180) {
+      $element.addClass(className);
+    } else {
+      $element.removeClass(className);
+    }
+  });
+  </script>
+
+
+
+</body>
