@@ -251,7 +251,8 @@ div.tab button.active {
 	margin: 20px 20px;
 	background-color: #fff;
 	/*border: 1px solid #e6e6e6;*/
-
+	transform-style: preserve-3d
+	transform: translateZ(20px)
 }
 
 .card-hero{
@@ -263,8 +264,8 @@ div.tab button.active {
 	float: left;
 	overflow: auto;
 	width: 100%;
-	transition: all .1s ease-in-out;
-	-webkit-transition: all .1s ease-in-out;
+	transform: translateZ(20px)
+
 }
 
 .card-body {
@@ -278,6 +279,7 @@ div.tab button.active {
 	padding-top: 32px;
 	z-index: 2;
 	border-top: 1px solid rgba(0,0,0,.08) ;
+	transform: translateZ(20px)
 
 }
 
@@ -300,10 +302,10 @@ div.tab button.active {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-	-webkit-transition: all 0.2s ease;
+	/*-webkit-transition: all 0.2s ease;
 				transition: all 0.2s ease;
 -webkit-transform: scale3d(1, 1, 1);
-				transform: scale3d(1, 1, 1);
+				transform: scale3d(1, 1, 1);*/
 }
 
 .card-col-1 .card-image, .card-col-2 .card-image {
@@ -322,7 +324,6 @@ div.tab button.active {
   color: #2D2D2D;
 	/*padding: 0 20px;*/
   /*float: left;*/
-
 }
 
 .card-description {
@@ -341,7 +342,6 @@ div.tab button.active {
 	font-size: 16px;
   line-height: 22px;
 }
-
 
 .card-tag {
   font-size: 13px;

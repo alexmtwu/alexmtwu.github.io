@@ -8,6 +8,12 @@
     max-width: 740px; margin:0 auto 0 auto;
 }
 
+/*.back {
+  font-size: 14px;
+  color: #4B4F56;
+  margin-bottom: 40px;
+}*/
+
 .tag{
   font-size: 12px;
   font-weight: bold;
