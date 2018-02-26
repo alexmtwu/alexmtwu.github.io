@@ -246,14 +246,14 @@ div.tab button.active {
 }
 
 .card {
-	box-shadow: 0 10px 10px rgba(0,0,0,.08);
-  -webkit-box-shadow: 0 10px 10px rgba(0,0,0,.08);
+	box-shadow: 0 40px 40px rgba(0,0,0,.04);
+  -webkit-box-shadow: 0 40px 40px rgba(0,0,0,.04);
 	margin: 20px 20px;
 	background-color: #fff;
 	/*border: 1px solid #e6e6e6;*/
 	transform-style: preserve-3d
 	transform: translateZ(20px);
-	border-radius: 20px;
+	border-radius: 8px;
 }
 
 .card-hero{
@@ -266,7 +266,7 @@ div.tab button.active {
 	overflow: auto;
 	width: 100%;
 	transform: translateZ(20px);
-	border-radius: 20px 20px 0px 0px;
+	border-radius: 8px 8px 0px 0px;
 
 }
 
