@@ -252,7 +252,8 @@ div.tab button.active {
 	background-color: #fff;
 	/*border: 1px solid #e6e6e6;*/
 	transform-style: preserve-3d
-	transform: translateZ(20px)
+	transform: translateZ(20px);
+	border-radius: 20px;
 }
 
 .card-hero{
@@ -264,7 +265,8 @@ div.tab button.active {
 	float: left;
 	overflow: auto;
 	width: 100%;
-	transform: translateZ(20px)
+	transform: translateZ(20px);
+	border-radius: 20px 20px 0px 0px;
 
 }
 
@@ -279,7 +281,7 @@ div.tab button.active {
 	padding-top: 32px;
 	z-index: 2;
 	border-top: 1px solid rgba(0,0,0,.08) ;
-	transform: translateZ(20px)
+	transform: translateZ(20px);
 
 }
 
