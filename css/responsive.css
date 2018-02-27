@@ -27,6 +27,10 @@
 	  line-height: 22px;
 	}
 
+	.instagram-grid {
+		height: 2370px;
+	}
+
 
 
 }
@@ -131,6 +135,10 @@
 		display: none;
 	}
 
+	.instagram-grid {
+		height: 1580px;
+	}
+
 
 
 }
@@ -145,6 +153,10 @@
 
 	.card-col-1, .card-col-2, .card-col-3 {
 		width: 320px;
+	}
+
+	.instagram-grid {
+		height: 750px;
 	}
 }
 
